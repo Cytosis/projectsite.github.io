@@ -1,0 +1,201 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  
+}
+.jumbotron {
+  text-align: center;
+  background-image: url('../images/hero_image.jpg');
+  color: white;
+}
+.btn-lg {
+  font-size: 36px;
+}
+
+.jumbotron h1 {
+  font-family: 'Arvo', courier, serif;
+}
+ ul.nav {
+
+   font-family: 'Arvo', courier, serif;
+
+ }
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.jumbotron p {
+  margin-bottom: 30px;
+}
+
+
+
+.whoweare {
+
+  text-align: center;
+  margin:auto;
+  padding: 20px;
+}
+
+.homepage  {
+
+  text-align: center;
+  margin: auto;
+
+  
+}
+
+
+.whoweare h2 {
+  color: red;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+
+}
+.homepage h2 {
+  color: red;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.1;
+
+}
+
+
+.homepage h3 {
+  color: red;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.homepage p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+
+.whoweare p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.btn-default{
+  color: red;
+
+
+}
+
+.homepage hr {
+  width: 160px;
+  height: 1px;
+  border-top: 1px solid red;
+  margin: auto;
+  text-align: center;
+  padding:15px;
+}
+
+.whoweare hr {
+  width: 160px;
+  height: 1px;
+  border-top: 1px solid red;
+  margin: auto;
+  text-align: center;
+  padding:15px;
+}
+.fa-4x {
+
+  padding: 10px;
+
+}
+
+.academy{
+
+    color:#e74c3c;
+}
+
+.academy:hover {
+  color: #e74c3c;
+  text-decoration: none;
+  opacity: .8;
+
+
+}
+
+#get-involved {
+
+
+  background-color: #f5f5f5;
+}
+
+
+
+
+#whoweare-outside {
+padding: 15px;
+margin: 20px;
+}
+
+footer {
+
+  background-color: #f74c3c;
+  padding-top: 150px;
+  padding-bottom: 30px;
+
+
+}
+
+
+/* Responsive Styling */
+@media (max-width: 1199px) {
+  .jumbotron h1 {
+    font-size: 56px;
+    padding: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .jumbotron h1 {
+    font-size: 44px;
+  }
+  .jumbotron p {
+    padding: 0 10px;
+  }
+  #get-involved .col-md-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .jumbotron h1 {
+    font-size: 24px;
+  }
+  .jumbotron p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .btn-lg {
+    font-size: 18px;
+  }
+  .homepage p {
+    font-size: 18px;
+  }
+  footer img {
+    width: 80%;
+  }
+}
